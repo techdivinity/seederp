@@ -38,7 +38,7 @@
                         <div class="row" >
                             <div class="col-sm-12">
                                 <h4 class="page-title">Categories
-                                    <a style="float: right" href="#addSubCat-modal" onclick="clearOne()"  class="btn btn-default btn-md waves-effect waves-light m-b-30" data-animation="fadein" data-plugin="custommodal" 
+                                    <a style="float: right" href="#addSubCat-modal" onclick="show('one')"  class="btn btn-default btn-md waves-effect waves-light m-b-30" data-animation="fadein" data-plugin="custommodal" 
 			                                                    	data-overlaySpeed="200" data-overlayColor="#36404a" ><i class="md md-add"></i> Add Sub Category</a>
                                 </h4>
                             </div>
@@ -99,13 +99,23 @@
                             <input type="text" class="form-control" id="subcat" placeholder="">
                         </div>
                         
-                                <button type="button" onclick="chkAddSubCatForm()" class="btn btn-default waves-effect waves-light">Save</button>
+                        <button type="button" onclick="chkAddSubCatForm()" class="btn btn-default waves-effect waves-light">Save</button>
                         <button type="button" onclick="Custombox.close();" class="btn btn-danger waves-effect waves-light m-l-10">Cancel</button>
                     
 			    </div>
                                 </div>
-                    <div id="two"></div>
-                    <div id="three"></div>
+                            <div id="two"><br>
+                                <img src="../icon/load.gif"/><br>
+                                Wait...<br><br>
+                            </div>
+                            <div id="three"><br>
+                                <img src="../icon/done32.png"/> <b><font color="green">Sub Category Added Successfully.</font></b><br><br>
+                                <button type="button" onclick="window.location.reload();" class="btn btn-default waves-effect waves-light">OK</button><br><br>
+                            </div>
+                            <div id="four"><br>
+                                <img src="../icon/Error-32.png"/> <b><font color="red">Something Went Wrong. Try Again.</font></b><br><br>
+                                <button type="button" onclick="show('one')" class="btn btn-default waves-effect waves-light">OK</button><br><br>
+                            </div>
 			</div>
             
             
