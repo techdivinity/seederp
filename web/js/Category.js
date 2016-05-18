@@ -8,6 +8,7 @@ function chkAddSubCatForm()
     else
     {
         subcatbox.style.border='';
+        show('two');
         addSubcategory();
     }
 }
@@ -39,21 +40,28 @@ function changePerResult(){
         
         if(v1=="SUCCESS")
         {
-            var d=document.getElementById("addsubCat");
-            d.innerHTML="<center><font color=\"blue\">New Sub Category Added Successfully.</font></center>";
-            window.location.reload();
+//            var d=document.getElementById("addsubCat");
+//            d.innerHTML="<center><font color=\"blue\">New Sub Category Added Successfully.</font></center>";
+//            window.location.reload();
+                show('three');
         }
         else
         {
-            alert("Something Wrong...");
+//            alert("Something Wrong...");
+                show('four');
         }
     }  
 }
 
-function clearOne()
+function show(id)
 {
-//    var d=document.getElementById("one");
-//    d.innerHTML="WOW";
+    document.getElementById("one").style.display='none';
+    document.getElementById("two").style.display='none';
+    document.getElementById("three").style.display='none';
+    document.getElementById("four").style.display='none';
+    document.getElementById(id).style.display='block';
+    
+
 }
 
 
