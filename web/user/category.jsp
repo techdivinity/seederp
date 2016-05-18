@@ -56,7 +56,7 @@
                                         <td>ABC</td><td>ABC</td><td>ABC</td><td>ABC</td>
                                     </tr>
                                     <tr>
-                                        <td>ABC</td><td>ABC</td><td>ABC</td><td>ABC</td>
+                                        <td>ABC</td><td></td><td>ABC</td><td>ABC</td>
                                     </tr>
                                 </table>
 
@@ -110,11 +110,11 @@
                             </div>
                             <div id="three"><br>
                                 <img src="../icon/done32.png"/> <b><font color="green">Sub Category Added Successfully.</font></b><br><br>
-                                <button type="button" onclick="window.location.reload();" class="btn btn-default waves-effect waves-light">OK</button><br><br>
+                                <button type="button" onclick="window.location.reload();" class="btn btn-default waves-effect waves-light">   OK   </button><br><br>
                             </div>
                             <div id="four"><br>
                                 <img src="../icon/Error-32.png"/> <b><font color="red">Something Went Wrong. Try Again.</font></b><br><br>
-                                <button type="button" onclick="show('one')" class="btn btn-default waves-effect waves-light">OK</button><br><br>
+                                <button type="button" onclick="show('one')" class="btn btn-default waves-effect waves-light">   OK   </button><br><br>
                             </div>
 			</div>
             

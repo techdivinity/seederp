@@ -38,7 +38,7 @@ function changePerResult(){
         var v1=new String(val);
         v1=v1.trim();
         
-        if(v1=="SUCCESS1")
+        if(v1=="SUCCESS")
         {
 //            var d=document.getElementById("addsubCat");
 //            d.innerHTML="<center><font color=\"blue\">New Sub Category Added Successfully.</font></center>";
